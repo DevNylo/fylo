@@ -18,7 +18,7 @@ header{
     header > nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -68,6 +68,28 @@ header{
     }
 
 }
+
+@media (max-width: 1720px){
+
+    div.coluna-1{
+        width: 45vw;
+    
+    }
+
+    div.coluna-1 p{
+        text-align: justify;
+    }
+    
+    div.coluna-1 input{
+        margin-bottom: 10px;
+    }
+    
+    div.coluna-1 button{
+        margin: 0px;
+    }
+
+}
+
 
 nav{
     width: 95vw;
