@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+
 body, html{
     margin: 0;
     padding: 0;
@@ -8,34 +9,60 @@ body, html{
 }
 
 header{
-    width: 100vw;
-    max-width: 1440px;
-    min-width: 375px;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 720px){
+
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    nav > a > img{
+        width:100px;
+    }
+
+    header > nav > ul{
+        gap: 20px;
+    }
+
+    body .section-1{
+        display:flex;
+        align-items: baseline;
+        flex-direction: column-reverse;
+    }
+
+    div.coluna-2 img{
+        display: flex;
+        width: 95vw;
+    }
+
+
 }
 
 nav{
-    max-width: 1440px;
-    min-width: 375px;
     width: 95vw;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-nav > a > img{
-    margin: 30px;
-}
-
 nav > ul{
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    list-style: none;
+    gap: 50px;
+    list-style: none;  
+    margin-top: 30px;
 }
 
-nav > ul > li{
-    
+nav > a > img{
+    margin-top: 30px;
 }
 
 nav > ul > li > a{
@@ -47,8 +74,11 @@ nav > ul > li > a{
     
 }
 
-.sec1{
-    width: 95vw;
+.section-1{
+    margin: 0 auto;
+    width:95VW;
+    margin-top: 30px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,35 +88,41 @@ nav > ul > li > a{
 
 
 
-.sec1 div{
-    width: 50%;
-    margin: 30px;
+.section-1 .coluna-1{
+    width: 45vw;
 
 }
 
-.sec1 h1{
+.section-1 .coluna-2{
+    width: 50vw;
+
+}
+
+.section-1 img{
+    width: 650px;
+}
+
+.section-1 h1{
     line-height: 50px;
-    text-align: justify;
     color: hsl(243, 87%, 12%);
     font-size: 2rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
 }
 
-.sec1 p{
-    text-align: justify;
+.section-1 p{
     color: hsl(243, 87%, 12%);
     font-size: 15px;
     font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
 }
 
-.sec1 input{
+.section-1 input{
     padding: 12px 80px 12px 5px;
     border: 1px solid hsl(238, 22%, 44%);
     border-radius: 4px;
 }
 
-.sec1 button{
+.section-1 button{
     font-family: 'Raleway', sans-serif;
     margin-left: 10px;
     font-weight: 900;
@@ -97,7 +133,7 @@ nav > ul > li > a{
     background-color: hsl(224, 93%, 58%);
 }
 
-.sec1 button:hover{
+.section-1 button:hover{
     background-color:hsl(238, 22%, 44%);
     transition: 0.3s;
 
