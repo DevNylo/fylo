@@ -58,14 +58,16 @@ header{
         text-align: justify;
     }
     div.coluna-1 input{
-        width: 95vw;
+        width: 90vw;
+        margin-bottom: 10px;
     }
     .section-1 .coluna-1 button{
+        width: 96vw;
+        margin-left: 0px;
 
     }
 
 }
-
 
 nav{
     width: 95vw;
@@ -122,7 +124,7 @@ nav > ul > li > a{
 }
 
 .section-1 img{
-    width: 650px;
+    width:50vw;
 }
 
 .section-1 h1{
