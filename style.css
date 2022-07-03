@@ -98,8 +98,9 @@ header{
     }
 
     .coluna-3 div img{
+        margin: 0px;
         width: 80vw;
-        box-shadow: 1px 1px 5px 1px;
+        box-shadow: 1px 1px 10px 1px;
     }
 
     div.curve{
@@ -112,7 +113,7 @@ header{
     }
 }
 
-@media (max-width: 1720px){
+@media (max-width: 1020px){
 
     div.coluna-1{
         width: 45vw;
@@ -144,6 +145,11 @@ header{
         width: 100vw;
     }
 
+    .coluna-3 div img{
+        margin: 0px;
+        box-shadow: 1px 1px 10px 1px;
+    }
+}
 h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 50%);
     color: hsl(243, 87%, 21%);
@@ -335,5 +341,5 @@ nav > ul > li > a{
 .coluna-3 img{
     margin-left: -20px;
     width: 110%;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 10px 1px;
 }
