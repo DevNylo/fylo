@@ -18,7 +18,7 @@ header{
     header > nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -27,6 +27,7 @@ header{
     }
 
     header > nav > ul{
+        margin-left: -15px;
         gap: 20px;
     }
 
@@ -99,7 +100,7 @@ header{
 
     .coluna-3 div img{
         margin: 0px;
-        width: 80vw;
+        width: 340px;
         box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
     }
 
@@ -159,14 +160,17 @@ header{
 
     div.itens-2 .inp-mail input{
         width: 50vw;
+        border-radius: 0px;
     }
 
     div.itens-2 .btn-mail{
         margin: 0 auto;
+    
     }
 
     div.itens-2 .btn-mail button{
         width: 54vw;
+        border-radius: 0px;
     }
 }
 
@@ -205,6 +209,12 @@ header{
     .coluna-3 div img{
         margin-left: -20px;
         box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
+    }
+
+    .b-color-2 .section-3{
+        width: 90vw;
+        height: 60vh;
+        
     }
 }
 h1{
