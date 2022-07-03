@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 body, html{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -100,7 +100,7 @@ header{
     .coluna-3 div img{
         margin: 0px;
         width: 80vw;
-        box-shadow: 1px 1px 10px 1px;
+        box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
     }
 
     div.curve{
@@ -118,6 +118,56 @@ header{
     
     p.p-link a{
         width: 100vw;
+    }
+
+    .b-color-2 .section-3{
+        width: 90vw;
+        height: 60vh;
+        margin: 0 auto;
+        background-color: hsl(238, 22%, 44%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section-3 .itens-1{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3 .itens-2{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.itens-1 h1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+    }
+    div.itens-1 p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+    }
+
+    div.itens-2 .inp-mail{
+        margin: 0 auto;
+    }
+
+    div.itens-2 .inp-mail input{
+        width: 50vw;
+    }
+
+    div.itens-2 .btn-mail{
+        background-color: brown;
+        margin: 0 auto;
+    }
+
+    div.itens-2 .btn-mail button{
+        width: 54vw;
     }
 }
 
@@ -155,16 +205,20 @@ header{
 
     .coluna-3 div img{
         margin-left: -20px;
-        box-shadow: 1px 1px 10px 1px;
+        box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
     }
 }
 h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 50%);
     color: hsl(243, 87%, 21%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     color: hsl(243, 87%, 21%);
     text-align: justify;
     font-weight: 400;
@@ -196,6 +250,7 @@ nav > ul > li > a{
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
     
 }
@@ -281,11 +336,11 @@ nav > ul > li > a{
     align-items: center;
     flex-wrap: wrap;
 }
-/*------------------------------------------------*/
 
 .b-color{
     background-color: hsl(240, 75%, 98%);
     width: 98.5vw;
+    padding-bottom: 100px;
 }
 
 .p-link{
@@ -312,6 +367,7 @@ nav > ul > li > a{
 }
 
 .section-2{
+
     width: 90vw;
     align-items: center;
     display: flex;
@@ -354,5 +410,69 @@ nav > ul > li > a{
 .coluna-3 img{
     margin-left: -20px;
     width: 110%;
-    box-shadow: 1px 1px 10px 1px;
+    box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500);
+}
+
+.b-color-2{
+    background-color: hsl(238, 22%, 44%) ;
+}
+
+.section-3{
+    width: 90vw;
+    height: 35vh;
+    margin: 0 auto;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.itens-1{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-1 h1{
+    color: white;
+
+}
+
+.itens-1 p{
+    color: white;
+
+}
+
+.itens-2{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-2 div input{
+    width: 25vw;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 10px;
+    box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
+}
+
+.itens-2 div button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    width: 200px;
+    height: 37px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: hsl(224, 93%, 58%);
+    box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
+}
+.itens-2 div button:hover{
+    background-color:hsl(238, 22%, 44%);
+    transition: 0.3s;
+
 }
