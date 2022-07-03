@@ -9,7 +9,7 @@ body, html{
 }
 
 header{
-    width: 95vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ header{
     header > nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -37,35 +37,79 @@ header{
     }
 
     div.coluna-2 img{
-        width: 95vw;
+        width: 90vw;
     }
 
     div.coluna-1{
         display: block;
-        width: 95vw;
+        width: 90vw;
         margin-top: 20px;
 
     }
 
     div.coluna-1 h1{
-        width: 95vw;
-        text-align: justify;
+        width: 90vw;
+        text-align: center;
     }
 
     div.coluna-1 p{
-        width: 95vw;
+        width: 90vw;
         text-align: justify;
     }
     div.coluna-1 input{
-        width: 90vw;
+        width: 85vw;
         margin-bottom: 10px;
     }
     .section-1 .coluna-1 button{
-        width: 95vw;
+        width: 90vw;
         margin-left: 0px;
 
     }
 
+    body .b-color{
+        width: 100vw;
+    }
+
+    body .section-2{
+        display:flex;
+        align-items: baseline;
+        flex-direction: column-reverse;
+    }
+
+    div.coluna-4 img{
+        width: 90vw;
+    }
+
+    div.coluna-3{
+        display: block;
+        width: 90vw;
+        margin-top: 20px;
+
+    }
+
+    div.coluna-3 h1{
+        width: 90vw;
+        text-align: center;
+    }
+
+    div.coluna-3 p{
+        width: 90vw;
+        text-align: justify;
+    }
+
+    .coluna-3 div img{
+        width: 80vw;
+        box-shadow: 1px 1px 5px 1px;
+    }
+
+    div.curve{
+        margin-top: 200px;
+        width: 100vw;
+    }
+    
+    div.curve img{
+        width: 100vw;
+    }
 }
 
 @media (max-width: 1720px){
@@ -86,22 +130,35 @@ header{
     div.coluna-1 button{
         margin: 0px;
     }
+    
+    div.curve{
+        margin-top: 200px;
+        width: 100vw;
+    }
+    
+    div.curve img{
+        width: 100vw;
+    }
 
-}
+    body .b-color{
+        width: 100vw;
+    }
 
 h1{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 50%);
     color: hsl(243, 87%, 21%);
 }
 
 p{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 50%);
     color: hsl(243, 87%, 21%);
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 nav{
-    width: 95vw;
-    margin: 0 auto;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,7 +188,7 @@ nav > ul > li > a{
 
 .section-1{
     margin: 0 auto;
-    width:95vw;
+    width:90vw;
     margin-top: 30px;
 
     display: flex;
@@ -149,12 +206,13 @@ nav > ul > li > a{
 }
 
 .section-1 .coluna-2{
-    width: 50vw;
+   
+    width: 45vw;
 
 }
 
 .section-1 img{
-    width:50vw;
+    width:45vw;
 }
 
 .section-1 h1{
@@ -162,10 +220,6 @@ nav > ul > li > a{
     font-size: 2rem;
 }
 
-.section-1 p{
-    font-size: 15px;
-    font-weight: 400;
-}
 
 .section-1 input{
     width: 300px;
@@ -192,10 +246,20 @@ nav > ul > li > a{
 
 }
 
+
+.curve{
+    margin-top: 200px;
+    width: 98.5vw;
+}
+
+.curve img{
+    width: 98.5vw;
+}
+
 .section-2{
     margin: 0 auto;
     width:95vw;
-    margin-top: 30px;
+    margin-top: -5px;
 
     display: flex;
     flex-direction: row;
@@ -204,6 +268,11 @@ nav > ul > li > a{
     flex-wrap: wrap;
 }
 /*------------------------------------------------*/
+
+.b-color{
+    background-color: hsl(240, 75%, 98%);
+    width: 98.5vw;
+}
 
 .p-link a{
     display: flex;
@@ -219,9 +288,23 @@ nav > ul > li > a{
     height: 5px;
 }
 
+.p-link a:hover{
+    color: greenyellow;
+}
+
+.section-2{
+    width: 90vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: hsl(240, 75%, 98%);
+    
+}
 
 .coluna-3{
-    width: 40vw;
+    background-color: hsl(240, 75%, 98%);
+    width: 45vw;
     display: flex;
     flex-direction: column;
 }
@@ -232,7 +315,25 @@ nav > ul > li > a{
     text-align: justify;
     width: 25vw;
     height: 35vh;
-    background-color: blueviolet;
     padding: 20px;
 }
 
+.coluna-4{
+    
+    width: 45vw;
+}
+
+.coluna-4 img{
+    width: 45vw;
+}
+
+.section-2 h1{
+    line-height: 50px;
+    font-size: 2rem;
+}
+
+.coluna-3 img{
+    margin-left: -20px;
+    width: 110%;
+    box-shadow: 1px 1px 1px 1px;
+}
