@@ -111,6 +111,14 @@ header{
     div.curve img{
         width: 100vw;
     }
+
+    p.p-link{
+        width: 100vw;
+    }
+    
+    p.p-link a{
+        width: 100vw;
+    }
 }
 
 @media (max-width: 1020px){
@@ -146,8 +154,7 @@ header{
     }
 
     .coluna-3 div img{
-        width: 80vw;
-        margin: 0px;
+        margin-left: -20px;
         box-shadow: 1px 1px 10px 1px;
     }
 }
@@ -281,8 +288,13 @@ nav > ul > li > a{
     width: 98.5vw;
 }
 
+.p-link{
+    width: 50vw;
+}
+
 .p-link a{
     display: flex;
+    width: 23vw;
     color: rgb(3, 77, 3);
     text-decoration: underline;
     text-underline-offset: 0.6rem;
