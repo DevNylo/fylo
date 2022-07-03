@@ -113,13 +113,13 @@ header{
     }
 
     p.p-link{
-        width: 100vw;
+        width: 60vw;
     }
     
     p.p-link a{
-        width: 100vw;
+        width: 60vw;
     }
-
+    
     .b-color-2 .section-3{
         width: 90vw;
         height: 60vh;
@@ -162,7 +162,6 @@ header{
     }
 
     div.itens-2 .btn-mail{
-        background-color: brown;
         margin: 0 auto;
     }
 
