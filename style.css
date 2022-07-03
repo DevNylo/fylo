@@ -37,7 +37,6 @@ header{
     }
 
     div.coluna-2 img{
-        display: flex;
         width: 95vw;
     }
 
@@ -62,7 +61,7 @@ header{
         margin-bottom: 10px;
     }
     .section-1 .coluna-1 button{
-        width: 96vw;
+        width: 95vw;
         margin-left: 0px;
 
     }
@@ -90,6 +89,15 @@ header{
 
 }
 
+h1{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    color: hsl(243, 87%, 21%);
+}
+
+p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    color: hsl(243, 87%, 21%);
+}
 
 nav{
     width: 95vw;
@@ -123,7 +131,7 @@ nav > ul > li > a{
 
 .section-1{
     margin: 0 auto;
-    width:95VW;
+    width:95vw;
     margin-top: 30px;
 
     display: flex;
@@ -151,16 +159,12 @@ nav > ul > li > a{
 
 .section-1 h1{
     line-height: 50px;
-    color: hsl(243, 87%, 12%);
     font-size: 2rem;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
 }
 
 .section-1 p{
-    color: hsl(243, 87%, 12%);
     font-size: 15px;
     font-weight: 400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
 }
 
 .section-1 input{
@@ -187,3 +191,48 @@ nav > ul > li > a{
     transition: 0.3s;
 
 }
+
+.section-2{
+    margin: 0 auto;
+    width:95vw;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*------------------------------------------------*/
+
+.p-link a{
+    display: flex;
+    color: rgb(3, 77, 3);
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    font-weight: 700;
+
+}
+
+.p-link a::after{
+    content: url(images/icon-arrow.svg);
+    height: 5px;
+}
+
+
+.coluna-3{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-3 div{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 25vw;
+    height: 35vh;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
