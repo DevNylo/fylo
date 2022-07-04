@@ -121,9 +121,9 @@ header{
         width: 60vw;
     }
     
-    .b-color-2 .section-3{
+    div.b-color-2 .section-3{
         width: 90vw;
-        height: 60vh;
+        height: 40vh;
         margin: 0 auto;
         background-color: hsl(238, 22%, 44%);
         display: flex;
@@ -213,7 +213,7 @@ header{
 
     .b-color-2 .section-3{
         width: 90vw;
-        height: 60vh;
+        height: 40vh;
         
     }
 }
