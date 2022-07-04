@@ -506,3 +506,35 @@ nav > ul > li > a{
     justify-content: space-evenly;
     align-items: center;
 }
+
+.itens-3 .phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.itens-3 .phone img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.itens-3 .phone p{
+    color: white;
+}
+
+.itens-4 .e-mail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.itens-4 .e-mail img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.itens-4 .e-mail p{
+    color: white;
+}
