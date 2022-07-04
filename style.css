@@ -523,18 +523,92 @@ nav > ul > li > a{
     color: white;
 }
 
-.itens-4 .e-mail{
+.itens-3 .e-mail{
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.itens-4 .e-mail img{
+.itens-3 .e-mail img{
     width: 15px;
     height: 15px;
 }
 
 
-.itens-4 .e-mail p{
+.itens-3 .e-mail p{
     color: white;
+}
+
+.itens-4 ul{
+    list-style: none;
+    line-height: 50px;
+
+}
+
+.itens-4 ul li{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.itens-4 ul li a{
+    font-weight: 600;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+.itens-4 ul li a:hover{
+    color: rgb(35, 35, 131);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    transition: .3s;
+
+}
+
+.itens-5 ul{
+    list-style: none;
+    line-height: 50px;
+
+}
+
+.itens-5 ul li{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.itens-5 ul li a{
+    font-weight: 600;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+.itens-5 ul li a:hover{
+    color: rgb(35, 35, 131);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    transition: .3s;
+
+}
+
+.itens-6{
+}
+
+.sociais a img{
+    gap: 20px;
+}
+
+.sociais{
+    text-align: center;
+    width: 20vw;
+}
+
+.sociais a img:hover{
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
