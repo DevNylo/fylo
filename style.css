@@ -499,12 +499,15 @@ nav > ul > li > a{
     margin: 0 auto;
     width: 90vw;
     height: 40vh;
-    background-color: rgb(102, 102, 228);
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.itens-3 > img {
+    width: 100px;
 }
 
 .itens-3 .phone{
@@ -598,17 +601,17 @@ nav > ul > li > a{
 .itens-6{
 }
 
-.sociais a img{
-    gap: 20px;
-}
-
 .sociais{
     text-align: center;
-    width: 20vw;
+    width: 25vw;
 }
 
-.sociais a img:hover{
-    width: 40px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+.sociais ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
 }
+
+.sociais ul li a img{
+}
+
