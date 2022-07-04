@@ -264,6 +264,11 @@ nav > ul > li > a{
     
 }
 
+nav > ul > li > a:hover{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .section-1{
     margin: 0 auto;
     width:90vw;
@@ -598,9 +603,6 @@ nav > ul > li > a{
 
 }
 
-.itens-6{
-}
-
 .sociais{
     text-align: center;
     width: 25vw;
@@ -612,6 +614,9 @@ nav > ul > li > a{
     gap: 35px;
 }
 
-.sociais ul li a img{
+.sociais ul li a img:hover{
+    transition: 0.3s;
+    width: 50px;
+
 }
 
