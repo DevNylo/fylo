@@ -489,3 +489,8 @@ nav > ul > li > a{
     transition: 0.3s;
 
 }
+
+.b-color-3{
+    background-color: hsl(243, 87%, 12%);
+    height: 40vh;
+}
