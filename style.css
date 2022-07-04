@@ -426,11 +426,12 @@ nav > ul > li > a{
 
 .b-color-2{
     background-color: hsl(238, 22%, 44%) ;
+    padding-bottom: 50px;
 }
 
 .section-3{
     width: 90vw;
-    height: 35vh;
+    height: -20px 20vh;
     margin: 0 auto;
     background-color: hsl(238, 22%, 44%);
     display: flex;
