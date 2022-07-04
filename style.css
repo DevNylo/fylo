@@ -599,7 +599,7 @@ nav > ul > li > a:hover{
     color: rgb(35, 35, 131);
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
-    transition: .3s;
+    transition: .1s;
 
 }
 
@@ -615,8 +615,8 @@ nav > ul > li > a:hover{
 }
 
 .sociais ul li a img:hover{
-    transition: 0.3s;
-    width: 50px;
+    transition: 0.1s;
+    width: 40px;
 
 }
 
