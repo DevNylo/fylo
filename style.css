@@ -494,3 +494,10 @@ nav > ul > li > a{
     background-color: hsl(243, 87%, 12%);
     height: 40vh;
 }
+
+.section-4{
+    margin: 0 auto;
+    width: 90vw;
+    height: 40vh;
+    background-color: azure;
+}
