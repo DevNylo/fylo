@@ -235,10 +235,44 @@ header{
         box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
     }
 
+    div.b-color-2{
+        height: 50vh;
+    }
+
     .b-color-2 .section-3{
         width: 90vw;
         height: 40vh;
         
+    }
+
+
+    footer.b-color-3{
+        height: 75vh;
+    }
+
+    section.section-4{
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 70px;
+    }
+
+    div.itens-6{
+        width: 55vw;
+    }
+
+    div.sociais{
+        margin: 0 auto;
+    }
+
+    div.itens-4 ul{
+        width: 15vw;
+    }
+
+    div.itens-5 ul{
+        width: 15vw;
     }
 }
 h1{
