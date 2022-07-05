@@ -1,9 +1,11 @@
-    <h1>Projeto número 1</h1>
+Projeto número 1
 
-    <h1>Fylo</h1>
+Fylo | Cloud
 
-    <p> Meu primeiro projeto baseado em todo o conhecimento obitido nesses 3 meses de estudo em linguagem de marcação, preciso lembrar que utilizei o JS apenas para alertas, no momento não possuo conhecimento algum em programação.</p>
+Meu primeiro projeto baseado em todo o conhecimento obtido nesses 3 meses de estudo em linguagem de marcação, preciso lembrar que utilizei o JS apenas para alertas, no momento não possuo conhecimento algum em programação.
 
-    <h3>Iniciado em 02/07/2022 com término em 05/07/2022</h3>
+Lembrando que esse projeto não tem nenhum cunho comercial, mas apenas acadêmico. Todas as imagens fontes e qualquer outros itens pertencem ao desafio da Front-End Mentor e é de livre utilização.
 
-    <h2>Não deixe de testar a responsividade, obrigado ! ! !<h2>
+Iniciado em 02/07/2022 com término em 05/07/2022.
+
+Não deixe de testar a responsividade, obrigado ! ! !
