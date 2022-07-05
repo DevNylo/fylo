@@ -1,6 +1,9 @@
-Projeto número 1
+# Projeto número 1
 
-Fylo | Cloud
+## [Fylo | Cloud](https://devnylo.github.io/fylo/)
+
+![Fylo](https://github.com/DevNylo/fylo/blob/main/design/desktop-preview.jpg?raw=true)
+
 
 Meu primeiro projeto baseado em todo o conhecimento obtido nesses 3 meses de estudo em linguagem de marcação, preciso lembrar que utilizei o JS apenas para alertas, no momento não possuo conhecimento algum em programação.
 
@@ -9,3 +12,5 @@ Lembrando que esse projeto não tem nenhum cunho comercial, mas apenas acadêmic
 Iniciado em 02/07/2022 com término em 05/07/2022.
 
 Não deixe de testar a responsividade, obrigado ! ! !
+
+<img>
