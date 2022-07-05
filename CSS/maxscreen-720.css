@@ -1,0 +1,200 @@
+@media only screen and (max-width: 720px) {
+
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav > a > img{
+        width:100px;
+    }
+
+    header > nav > ul{
+        margin-left: -15px;
+        gap: 20px;
+    }
+
+    body .section-1{
+        display:flex;
+        align-items: baseline;
+        flex-direction: column-reverse;
+    }
+
+    div.coluna-2 img{
+        width: 90vw;
+    }
+
+    div.coluna-1{
+        display: block;
+        width: 90vw;
+        margin-top: 20px;
+
+    }
+
+    div.coluna-1 h1{
+        width: 90vw;
+        text-align: center;
+    }
+
+    div.coluna-1 p{
+        width: 90vw;
+        text-align: justify;
+    }
+    div.coluna-1 input{
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+    .section-1 .coluna-1 button{
+        width: 90vw;
+        margin-left: 0px;
+
+    }
+
+    body .b-color{
+        width: 100vw;
+    }
+
+    body .section-2{
+        display:flex;
+        align-items: baseline;
+        flex-direction: column-reverse;
+    }
+
+    div.coluna-4 img{
+        width: 90vw;
+    }
+
+    div.coluna-3{
+        display: block;
+        width: 90vw;
+        margin-top: 20px;
+
+    }
+
+    div.coluna-3 h1{
+        width: 90vw;
+        text-align: center;
+    }
+
+    div.coluna-3 p{
+        width: 90vw;
+        text-align: justify;
+    }
+
+    .coluna-3 div img{
+        margin: 0px;
+        width: 340px;
+        box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.500) ;
+    }
+
+    div.curve{
+        margin-top: 200px;
+        width: 100vw;
+    }
+    
+    div.curve img{
+        width: 100vw;
+    }
+
+    p.p-link{
+        width: 60vw;
+    }
+    
+    p.p-link a{
+        width: 60vw;
+    }
+
+    div.b-color-2{
+        height: 45vh;
+    }
+    
+    div.b-color-2 .section-3{
+        width: 90vw;
+        height: 45vh;
+        background-color: hsl(238, 22%, 44%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section-3 .itens-1{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3 .itens-2{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.itens-1 h1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+    }
+    div.itens-1 p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+    }
+
+    div.itens-2 .inp-mail{
+        margin: 0 auto;
+    }
+
+    div.itens-2 .inp-mail input{
+        width: 50vw;
+        border-radius: 0px;
+    }
+
+    div.itens-2 .btn-mail{
+        margin: 0 auto;
+    
+    }
+
+    div.itens-2 .btn-mail button{
+        width: 54vw;
+        border-radius: 0px;
+    }
+
+    footer.b-color-3{
+        height: 110vh;
+    }
+
+    section.section-4{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 70px;
+    }
+
+    div.itens-4{
+        width: 50vw;
+    }
+
+    div.itens-5{
+        width: 50vw;
+    }
+
+    div.itens-4 ul li{
+        width: 50vw;
+    }
+
+    div.itens-5 ul li{
+        width: 50vw;
+    }
+
+    div.itens-6{
+        width: 55vw;
+    }
+
+    div.sociais{
+        margin: 0 auto;
+    }
+}
