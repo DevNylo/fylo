@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="CSS/style-index.css">
-  <link rel="stylesheet" href="CSS/maxscreen-1220.css">
-  <link rel="stylesheet" href="CSS/maxscreen-720.css">
+  <link rel="stylesheet" href="CSS/style-index.css"> <!--DESKTOP-->
+  <link rel="stylesheet" href="CSS/maxscreen-1220.css"> <!--RESPOSIVIDADE 1220-->
+  <link rel="stylesheet" href="CSS/maxscreen-720.css"> <!--RESPOSIVIDADE 1220-->
+
+  <script>
+    function msg(){
+      alert("Este é um botão/input estático, desculpe.")
+    }
+
+  </script>
   
   <title>Fylo | Cloud</title>
 </head>
 <body>
+  <!-- TODO O MENU SE ENCONTRA AQUI -->
   <header>
     <nav>
       <a href="index.html"><img src="images/logo.svg" alt="Fylo"></a>
@@ -21,13 +29,13 @@
       </ul>
     </nav>
   </header>
-
+  <!-- PRIMEIRA COLUNA DE SESSÕES -->
   <section class="section-1">
     <div class="coluna-1">
       <h1>Todos os seus arquivos em um local seguro, acessível em qualquer lugar.</h1>
       <p>O Fylo armazena seus arquivos mais importantes em um local seguro. Acesse-os sempre que precisar, compartilhe e colabore com amigos, família e colegas de trabalho.</p>
-      <input type="email" name="Email" placeholder="Informe o seu e-mail.">
-      <button>Vamos Começar!</button>
+      <input type="email" name="Email" placeholder="Informe o seu e-mail." onclick="msg()">
+      <button onclick="msg()">Vamos Começar!</button>
     </div>
     <div class="coluna-2">
       <img src="images/illustration-1.svg" alt="Illustration-1">
@@ -37,11 +45,12 @@
   <div class="curve">
     <img src="images/bg-curve-desktop.svg" alt="curve">
   </div>
-  
-  <div class="b-color">
+  <!-- SEGUNDA COLUNA DE SESSÕES -->
+
+  <div class="b-color"> <!--BACKGROUND COLOR-->
 
     <section class="section-2">
-    
+
       <div class="coluna-3">
         
         <h1>Mantenha-se produtivo, onde quer que esteja.</h1>
@@ -52,14 +61,19 @@
         <div>
           <img src="images/testemunha.jpg" alt="Testemunha">
         </div>
+
       </div>
+
       <div class="coluna-4">
         <img src="images/illustration-2.svg" alt="Illustration-2">
       </div>
+
+    </section>
   </div>
 
+  <!-- TERCEIRA COLUNA DE SESSÕES -->
 
-  <div class="b-color-2">
+  <div class="b-color-2"> <!--BACKGROUND COLOR-->
     <section class="section-3">
       <div class="itens-1">
         <h1>Obtenha acesso antecipado hoje!</h1>
@@ -70,11 +84,13 @@
           <input type="email" placeholder="email_exemple@hotmail.com" onclick="msg()">
         </div>
         <div class="btn-mail">
-          <button>Comece de forma gratuita</button>
+          <button onclick="msg()">Comece de forma gratuita</button>
         </div>
       </div>
     </section>
   </div>
+
+  <!-- FOOTER -->
 
   <footer class="b-color-3">
     <section class="section-4">
