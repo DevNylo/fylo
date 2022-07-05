@@ -64,7 +64,7 @@ header{
 
 
     footer.b-color-3{
-        height: 50vh;
+        height: 75vh;
     }
 
     .section-4{
@@ -73,7 +73,7 @@ header{
         height: 60vh;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     div.itens-6{
