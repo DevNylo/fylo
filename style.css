@@ -127,7 +127,7 @@ header{
     
     div.b-color-2 .section-3{
         width: 90vw;
-        height: 40vh;
+        height: 50vh;
         background-color: hsl(238, 22%, 44%);
         display: flex;
         flex-direction: column;
@@ -183,10 +183,26 @@ header{
     section.section-4{
         display: flex;
         flex-direction: column;
-        height: 110vh;
+        height: 90vh;
         align-items: flex-start;
         justify-content: flex-start;
         padding-top: 70px;
+    }
+
+    div.itens-4{
+        width: 50vw;
+    }
+
+    div.itens-5{
+        width: 50vw;
+    }
+
+    div.itens-4 ul li{
+        width: 50vw;
+    }
+
+    div.itens-5 ul li{
+        width: 50vw;
     }
 
     div.itens-6{
@@ -246,11 +262,11 @@ header{
     }
 
 
-    footer.b-color-3{
+    .b-color-3{
         height: 75vh;
     }
 
-    section.section-4{
+    .section-4{
         display: flex;
         flex-direction: row;
         height: 60vh;
@@ -267,11 +283,11 @@ header{
         margin: 0 auto;
     }
 
-    div.itens-4 ul{
+    .itens-4 ul{
         width: 15vw;
     }
 
-    div.itens-5 ul{
+    .itens-5 ul{
         width: 15vw;
     }
 }
