@@ -1,16 +1,12 @@
-# Projeto número 1
 
 ## [Fylo | Cloud](https://devnylo.github.io/fylo/)
 
-![Fylo](https://github.com/DevNylo/fylo/blob/main/design/desktop-preview.jpg?raw=true)
 
 
-Meu primeiro projeto baseado em todo o conhecimento obtido nesses 3 meses de estudo em linguagem de marcação, preciso lembrar que utilizei o JS apenas para alertas, no momento não possuo conhecimento algum em programação.
+Meu primeiro projeto baseado em todo o conhecimento obtido nesses 3 meses de estudo em linguagem de marcação, preciso lembrar que utilizei o JS apenas para alertas, naquele momento não tinha quase nenhum conhecimento em JS.
 
-Lembrando que esse projeto não tem nenhum cunho comercial, mas apenas acadêmico. Todas as imagens fontes e qualquer outros itens pertencem ao desafio da Front-End Mentor e é de livre utilização.
+<img src="https://github.com/DevNylo/DevNylo/blob/main/Preview-Pages/fylo.jpg"></img>
 
-Iniciado em 02/07/2022 com término em 05/07/2022.
+## Responsivo
 
-Não deixe de testar a responsividade, obrigado ! ! !
-
-<img>
+<img src="https://github.com/DevNylo/DevNylo/blob/main/Preview-Pages/fylo-resp.jpg"></img>
